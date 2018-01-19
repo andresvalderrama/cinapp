@@ -1,0 +1,11 @@
+{
+  "name": "cinema-app",
+  "version": "0.0.1",
+  "description": "PWA compra de boletos de peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Andres Valderrama",
+  "license": "MIT"
+}
