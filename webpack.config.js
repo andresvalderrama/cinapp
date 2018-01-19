@@ -25,6 +25,16 @@ module.exports = {
             { loader: 'postcss-loader' }
           ]
         })
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: './fonts/'
+          }
+        }]
       }
     ]
   },
